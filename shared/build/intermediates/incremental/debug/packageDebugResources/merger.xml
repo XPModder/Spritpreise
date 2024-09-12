@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res"><file name="marker_icon" path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\drawable\marker_icon.webp" qualifiers="" type="drawable"/><file name="refresh_icon" path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\drawable\refresh_icon.webp" qualifiers="" type="drawable"/><file path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\values\arrays.xml" qualifiers=""><array name="locationSynonyms">
+        <item>Gas Station</item>
+        <item>Fuel Station</item>
+        <item>Tankstelle</item>
+        <item>Tanke</item>
+    </array><array name="disambiguatingDescription">
+        <item>Gas Station</item>
+        <item>Fuel Station</item>
+        <item>Tankstelle</item>
+        <item>Tanke</item>
+    </array><array name="radiusSelection">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>15 km</item>
+        <item>20 km</item>
+        <item>25 km</item>
+    </array><array name="gasSelection">
+        <item>LPG</item>
+        <item>LKW-Diesel</item>
+        <item>Diesel</item>
+        <item>Bioethanol</item>
+        <item>Super E10</item>
+        <item>SuperPlus</item>
+        <item>Super E5</item>
+        <item>CNG</item>
+        <item>Premium Diesel</item>
+        <item>AdBlue LKW</item>
+        <item>Wasserstoff</item>
+        <item>LNG</item>
+        <item>GTL-Diesel</item>
+        <item>AdBlue PKW</item>
+    </array><array name="gasTypes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>12</item>
+        <item>13</item>
+        <item>246</item>
+        <item>262</item>
+        <item>264</item>
+        <item>266</item>
+    </array></file><file path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\values\integers.xml" qualifiers=""><integer name="radius_default">2</integer><integer name="fuel_default">6</integer></file><file path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Spritpreise</string><string name="activity_asked">Preis Frage</string><string name="city_hint">Ort</string><string name="radius_hint">Radius</string><string name="gas_hint">Spritsorte</string><string name="location_hint">Standort</string><string name="settingsSummary">%1$s, %2$s + %3$s</string><string name="city_key">city</string><string name="city_default">Schortens</string><string name="radius_key">radius</string><string name="fuel_key">fuel</string><string name="stations_title">Tankstellen</string><string name="refresh_title">Aktualisieren</string><string name="refresh_line">Alle daten aktualisieren</string><string name="permission_info">Permissions are required to correctly use this app!</string><string name="base_request_url">https://www.clever-tanken.de/tankstelle_liste</string></file><file name="automotive_app_desc" path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\xml\automotive_app_desc.xml" qualifiers="" type="xml"/><file name="shortcuts" path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\res\xml\shortcuts.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>

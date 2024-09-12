@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <array name="locationSynonyms">
+        <item>Gas Station</item>
+        <item>Fuel Station</item>
+        <item>Tankstelle</item>
+        <item>Tanke</item>
+    </array>
+
+    <array name="disambiguatingDescription">
+        <item>Gas Station</item>
+        <item>Fuel Station</item>
+        <item>Tankstelle</item>
+        <item>Tanke</item>
+    </array>
+
+    <array name="radiusSelection">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>15 km</item>
+        <item>20 km</item>
+        <item>25 km</item>
+    </array>
+
+    <array name="gasSelection">
+        <item>LPG</item>
+        <item>LKW-Diesel</item>
+        <item>Diesel</item>
+        <item>Bioethanol</item>
+        <item>Super E10</item>
+        <item>SuperPlus</item>
+        <item>Super E5</item>
+        <item>CNG</item>
+        <item>Premium Diesel</item>
+        <item>AdBlue LKW</item>
+        <item>Wasserstoff</item>
+        <item>LNG</item>
+        <item>GTL-Diesel</item>
+        <item>AdBlue PKW</item>
+    </array>
+
+    <array name="gasTypes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>12</item>
+        <item>13</item>
+        <item>246</item>
+        <item>262</item>
+        <item>264</item>
+        <item>266</item>
+    </array>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+            android:shortcutId="asked"
+            android:shortcutShortLabel="@string/activity_asked">
+        <capability-binding android:key="actions.intent.GET_LOCAL_BUSINESS">
+            <parameter-binding
+                    android:key="localBusiness.location.name"
+                    android:value="@array/locationSynonyms"/>
+            <parameter-binding
+                android:key="localBusiness.disambiguatingDescription"
+                android:value="@array/disambiguatingDescription"/>
+        </capability-binding>
+    </shortcut>
+
+    <capability android:name="actions.intent.GET_LOCAL_BUSINESS">
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.xpmodder.spritpreise"
+                android:targetClass="com.xpmodder.spritpreise.MainActivity">
+
+            <parameter
+                    android:name="localBusiness.location.name"
+                    android:key="locationName"/>
+            <parameter
+                android:name="localBusiness.disambiguatingDescription"
+                android:key="locationDescription"/>
+        </intent>
+    </capability>
+
+</shortcuts>

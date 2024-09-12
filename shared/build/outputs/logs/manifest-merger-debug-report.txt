@@ -1,0 +1,62 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:1:1-27:12
+	package
+		INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:4:22-64
+uses-permission#androidx.car.app.MAP_TEMPLATES
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:5:22-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:8:5-25:19
+meta-data#com.google.android.gms.car.application
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:10:9-12:62
+	android:resource
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:12:17-60
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:11:17-70
+meta-data#androidx.car.app.minCarApiLevel
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:13:9-14:40
+	android:value
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:14:20-37
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:13:20-66
+service#com.xpmodder.spritpreise.shared.MyCarAppService
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:16:9-23:19
+	android:exported
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:18:17-40
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:17:17-79
+intent-filter#action:name:androidx.car.app.CarAppService+category:name:androidx.car.app.category.POI
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:19:13-22:29
+action#androidx.car.app.CarAppService
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:20:17-73
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:20:25-70
+category#androidx.car.app.category.POI
+ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:21:17-73
+	android:name
+		ADDED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:21:27-71
+uses-sdk
+INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml
+INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml

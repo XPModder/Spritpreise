@@ -1,0 +1,21 @@
+apply plugin: "com.android.library"
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 29
+        targetSdkVersion 34
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    namespace 'com.xpmodder.spritpreise.shared'
+}
+
+dependencies {
+    implementation 'androidx.media:media:1.7.0'
+    implementation 'androidx.car.app:app:1.4.0'
+    implementation 'androidx.activity:activity:1.9.2'
+    implementation 'androidx.fragment:fragment:1.8.3'
+    implementation "com.google.android.gms:play-services-location:21.3.0"
+}

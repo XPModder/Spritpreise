@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+array disambiguatingDescription
+array gasSelection
+array gasTypes
+array locationSynonyms
+array radiusSelection
+drawable marker_icon
+drawable refresh_icon
+integer fuel_default
+integer radius_default
+string activity_asked
+string app_name
+string base_request_url
+string city_default
+string city_hint
+string city_key
+string fuel_key
+string gas_hint
+string location_hint
+string permission_info
+string radius_hint
+string radius_key
+string refresh_line
+string refresh_title
+string settingsSummary
+string stations_title
+xml automotive_app_desc
+xml shortcuts

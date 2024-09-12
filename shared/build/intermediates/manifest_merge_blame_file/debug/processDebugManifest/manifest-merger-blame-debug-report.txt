@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xpmodder.spritpreise.shared" >
+4
+5    <uses-sdk android:minSdkVersion="29" />
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:4:5-66
+7-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:4:22-64
+8    <uses-permission android:name="androidx.car.app.MAP_TEMPLATES" />
+8-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:5:5-69
+8-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:5:22-67
+9    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+9-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:6:5-78
+9-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:6:22-76
+10    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+10-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:7:5-80
+10-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:7:22-78
+11
+12    <application>
+12-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:8:5-25:19
+13        <meta-data
+13-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:10:9-12:62
+14            android:name="com.google.android.gms.car.application"
+14-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:11:17-70
+15            android:resource="@xml/automotive_app_desc" />
+15-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:12:17-60
+16        <meta-data
+16-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:13:9-14:40
+17            android:name="androidx.car.app.minCarApiLevel"
+17-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:13:20-66
+18            android:value="1" />
+18-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:14:20-37
+19
+20        <service
+20-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:16:9-23:19
+21            android:name="com.xpmodder.spritpreise.shared.MyCarAppService"
+21-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:17:17-79
+22            android:exported="true" >
+22-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:18:17-40
+23            <intent-filter>
+23-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:19:13-22:29
+24                <action android:name="androidx.car.app.CarAppService" />
+24-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:20:17-73
+24-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:20:25-70
+25
+26                <category android:name="androidx.car.app.category.POI" />
+26-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:21:17-73
+26-->D:\Dokumente\Programming\IntelliJ\Spritpreise\shared\src\main\AndroidManifest.xml:21:27-71
+27            </intent-filter>
+28        </service>
+29    </application>
+30
+31</manifest>

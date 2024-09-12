@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Spritpreise</string>
+    <string name="activity_asked">Preis Frage</string>
+    <string name="city_hint">Ort</string>
+    <string name="radius_hint">Radius</string>
+    <string name="gas_hint">Spritsorte</string>
+    <string name="location_hint">Standort</string>
+    <string name="settingsSummary">%1$s, %2$s + %3$s</string>
+    <string name="city_key">city</string>
+    <string name="city_default">Schortens</string>
+    <string name="radius_key">radius</string>
+    <string name="fuel_key">fuel</string>
+    <string name="stations_title">Tankstellen</string>
+    <string name="refresh_title">Aktualisieren</string>
+    <string name="refresh_line">Alle daten aktualisieren</string>
+    <string name="permission_info">Permissions are required to correctly use this app!</string>
+    <string name="base_request_url">https://www.clever-tanken.de/tankstelle_liste</string>
+</resources>
